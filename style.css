@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(360deg, rgb(92, 12, 12) 0%, rgb(58, 1, 1) 100%);
+}
+
+.nav-bar {
+    width: 100vw;
+    height: 12vh;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 98%;
+    height: 85%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+}
+
+.down-ar {
+    height: 100%;
+    /* border: 2px solid white; */
+    width: 13%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.fa-angle-down {
+    margin-left: 30px
+}
+
+.option {
+    height: 100%;
+    /* border: 2px solid white; */
+    width: 72%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.share {
+    height: 100%;
+    /* border: 2px solid white; */
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.song-box {
+    height: 100%;
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    border-radius: 50px;
+    background: rgba(0, 0, 0, 0.582);
+    font-size: 1.8rem;
+}
+
+.song {
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid black; */
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.video {
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid black; */
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.backg {
+    background: rgba(49, 2, 2, 0.808);
+    transition: all 0.2s ease;
+}
+
+.nav-bar i {
+    cursor: pointer;
+}
+
+.cover-name {
+    width: 100%;
+    height: 68vh;
+    /* border: 2px solid black; */
+}
+
+.cover {
+    width: 100%;
+    height: 70%;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 40%;
+    height: 98%;
+    /* border: 2px solid white; */
+    background: url(https://i.ytimg.com/vi/_YXoQFNCmHI/maxresdefault.jpg) no-repeat center/cover;
+}
+
+.prefrence {
+    width: 100%;
+    height: 30%;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pref {
+    width: 95%;
+    height: 99%;
+    /* border: 2px solid white; */
+    display: flex;
+}
+
+.like {
+    height: 100%;
+    /* border: 2px solid white; */
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.9rem;
+    color: rgb(179, 179, 179);
+}
+
+.nameofsong {
+    height: 100%;
+    /* border: 2px solid white; */
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mastersong {
+    /* border: 2px solid white; */
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 70%;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.artist {
+    /* border: 2px solid white; */
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: rgb(190, 190, 190);
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.dislike {
+    height: 100%;
+    /* border: 2px solid white; */
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.9rem;
+    color: rgb(179, 179, 179);
+}
+
+.pref i {
+    cursor: pointer;
+}
+
+
+.player {
+    width: 100%;
+    height: 20vh;
+    /* border: 2px solid rgb(255, 255, 255); */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player-container {
+    height: 30%;
+    width: 98%;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-buttons-container{
+    width: 28%;
+    height: 95%;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.player-buttons {
+    height: 70%;
+    width: 98%;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 2.5rem;
+    overflow: hidden;
+}
+.player-buttons i{
+    cursor: pointer;
+}
+
+.player-buttons .fa-solid.fa-circle-play {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    font-size: 5rem;
+    color: rgb(193, 23, 23) !important; /* Add !important */
+    cursor: pointer;
+    z-index: 1;   
+    overflow: hidden;
+}
+
+.player-buttons .fa-solid.fa-circle-play::after{
+    content: '';
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    right: 2%;
+    bottom: 5%;
+    /* width: 100%;
+    height: 100%; */
+    background: white;
+    border-radius: 50%;
+    z-index: -1;
+    /* transform: translate(-50%,-50%); */
+}
+
+
+
+.range{
+    width: 800px;
+    appearance: none;
+    height: 5px;
+    outline: none;
+    border-radius: 20px;
+    background: rgb(148, 148, 148);
+    outline: none;
+    overflow: hidden;
+}
+
+.range::-webkit-slider-thumb {
+    appearance: none;
+    width: 3.5px;
+    height: 3.5px;
+    background: #fff;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 50%;
+    box-shadow: -800px 0 0 800px white;
+}
+
+.op{
+    opacity: 0.9;
+}
+
